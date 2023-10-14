@@ -3,50 +3,48 @@
 
 
 
-# GitHub'a Giriş
+# Welcome to "Introduction to GitHub"
 
-_Bir saatten kısa sürede GitHub kullanmaya başlayın._
+_Learn the basics of GitHub in under an hour._
 
 </header>
 
 
 
-## Adım 1: Dal Oluşturma
+## Step 1: Creating Your First Branch
 
-_"GitHub'a Giriş" kursuna hoş geldiniz! :wave:_
+_Get started with GitHub by creating your first branch!_ :wave:
 
-**GitHub Nedir?**: GitHub, sürüm kontrolü için _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ kullanan bir işbirliği platformudur. GitHub, [açık kaynak](https://docs.github.com/get-started/quickstart/github-glossary#open-source) yazılımı paylaşmak ve katkıda bulunmak için popüler bir yerdir.
-<br>:tv: [Video: GitHub Nedir?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+**What is GitHub?**: GitHub is a collaborative platform that utilizes _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for version control. It's a leading hub for sharing and contributing to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
+<br>:tv: Watch the [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 
-**Depo Nedir?**: Bir _[depo](https://docs.github.com/get-started/quickstart/github-glossary#repository)_, dosyaları ve klasörleri içeren bir projedir. Bir depo, dosyaların ve klasörlerin sürümlerini takip eder. Daha fazla bilgi için GitHub Belgeleri'ndeki "[Depo Hakkında](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" bölümüne bakın.
+**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders, tracking versions of its contents. Find more details in the "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" section in GitHub Docs.
 
-**Dal Nedir?**: Bir _[dal](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_, depomuzun paralel bir versiyonudur. Varsayılan olarak, depomuzun `main` adında bir dala sahip ve bu dal kesin dal olarak kabul edilir. Ek dallar oluşturarak depomuzun `main` dalını kopyalayabilir ve ana projeyi etkilemeden herhangi bir değişiklik yapabilirsiniz. Birçok insan, belirli özellikler üzerinde çalışmak için dalları kullanır ve diğer projeleri etkilemez.
+**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. The default branch is named `main` and is considered the primary one. Creating additional branches allows you to safely make changes without affecting the main project. This is especially useful for working on specific features. Learn more in the "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)" section.
 
-Dallar, çalışmanızı `main` daldan ayırmanıza izin verir. Diğer bir deyişle, herkesin çalışması güvendedirken katkıda bulunabilirsiniz. Daha fazla bilgi için "[Dallar Hakkında](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)" bölümüne bakın.
-
-**Profil README Nedir?**: Bir _[profil README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_, GitHub profilinizdeki "Hakkımda" bölümüne benzer ve kendiniz hakkında bilgi paylaşabileceğiniz bir alandır. GitHub, profil README'nizi profil sayfanızın en üstünde gösterir. Daha fazla bilgi için "[Profil README'nizi Yönetme](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)" bölümüne bakın.
+**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ serves as an "About me" section on your GitHub profile, letting you share information with the community on GitHub.com. GitHub displays your profile README at the top of your profile page. Get further insights in "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
 
 ![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: Aktivite: İlk Dalınızı Oluşturma
+### :keyboard: Activity: Your First Branch
 
-1. Yeni bir tarayıcı sekmesi açın ve yeni oluşturduğunuz depoya gidin. Ardından, bu talimatları bu sekmede okurken ikinci sekmede adımları takip edin.
-2. Deponuzun başlık menüsünde **< > Kod** sekmesine tıklayın.
+1. Open a new browser tab and go to your newly created repository. Follow the steps in your second tab while keeping these instructions open.
+2. Click on the **< > Code** tab in your repository's header menu.
 
    ![code-tab](/images/code-tab.png)
 
-3. Ana dalın açılır menüsüne tıklayın.
+3. Open the main branch drop-down menu.
 
    ![main-branch-dropdown](/images/main-branch-dropdown.png)
 
-4. Alana, dalınıza `my-first-branch` adını verin. Bu durumda, adın `my-first-branch` olması kurs iş akışını tetiklemek için önemlidir.
-5. Dalınızı oluşturmak için **Dal Oluştur: my-first-branch** düğmesine tıklayın.
+4. In the field, name your branch `my-first-branch`. It's crucial to use this exact name to trigger the course workflow.
+5. Click **Create branch: my-first-branch** to initiate the creation process.
 
    ![create-branch-button](/images/create-branch-button.png)
 
-   Dal otomatik olarak oluşturduğunuz dala geçecektir. Ana dal açılır çubuğu artık yeni dalınızın adını yansıtacak şekilde güncellenecektir.
+   The branch will automatically switch to the newly created one. The main branch drop-down bar will now reflect your new branch name.
 
-6. Yaklaşık 20 saniye bekleyin ve ardından bu sayfayı yenileyin (talimatları takip ettiğiniz sayfa). [GitHub Actions](https://docs.github.com/en/actions) otomatik olarak bir sonraki adıma geçecektir.
+6. Wait about 20 seconds, then refresh this page (the one with these instructions). [GitHub Actions](https://docs.github.com/en/actions) will automatically progress to the next step.
 
 <footer>
 
@@ -54,9 +52,9 @@ Dallar, çalışmanızı `main` daldan ayırmanıza izin verir. Diğer bir deyi�
 
 ---
 
-Yardıma mı ihtiyacınız var? [Tartışma panomuza katılın](https://github.com/orgs/community/discussions/categories/github-education) &bull; [GitHub Durumunu Kontrol Edin](https://www.githubstatus.com/)
+Need help? [Join our discussion board](https://github.com/orgs/community/discussions/categories/github-education) &bull; [Check GitHub status](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Davranış Kuralları](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT Lisansı](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
 ```
