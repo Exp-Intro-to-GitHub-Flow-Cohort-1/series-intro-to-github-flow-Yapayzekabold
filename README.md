@@ -1,75 +1,62 @@
+```markdown
 <header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
 
-# Introduction to GitHub
 
-_Get started using GitHub in less than an hour._
+# GitHub'a Giriş
+
+_Bir saatten kısa sürede GitHub kullanmaya başlayın._
 
 </header>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
 
-## Step 1: Create a branch
 
-_Welcome to "Introduction to GitHub"! :wave:_
+## Adım 1: Dal Oluşturma
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+_"GitHub'a Giriş" kursuna hoş geldiniz! :wave:_
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+**GitHub Nedir?**: GitHub, sürüm kontrolü için _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ kullanan bir işbirliği platformudur. GitHub, [açık kaynak](https://docs.github.com/get-started/quickstart/github-glossary#open-source) yazılımı paylaşmak ve katkıda bulunmak için popüler bir yerdir.
+<br>:tv: [Video: GitHub Nedir?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+**Depo Nedir?**: Bir _[depo](https://docs.github.com/get-started/quickstart/github-glossary#repository)_, dosyaları ve klasörleri içeren bir projedir. Bir depo, dosyaların ve klasörlerin sürümlerini takip eder. Daha fazla bilgi için GitHub Belgeleri'ndeki "[Depo Hakkında](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" bölümüne bakın.
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+**Dal Nedir?**: Bir _[dal](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_, depomuzun paralel bir versiyonudur. Varsayılan olarak, depomuzun `main` adında bir dala sahip ve bu dal kesin dal olarak kabul edilir. Ek dallar oluşturarak depomuzun `main` dalını kopyalayabilir ve ana projeyi etkilemeden herhangi bir değişiklik yapabilirsiniz. Birçok insan, belirli özellikler üzerinde çalışmak için dalları kullanır ve diğer projeleri etkilemez.
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+Dallar, çalışmanızı `main` daldan ayırmanıza izin verir. Diğer bir deyişle, herkesin çalışması güvendedirken katkıda bulunabilirsiniz. Daha fazla bilgi için "[Dallar Hakkında](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)" bölümüne bakın.
+
+**Profil README Nedir?**: Bir _[profil README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_, GitHub profilinizdeki "Hakkımda" bölümüne benzer ve kendiniz hakkında bilgi paylaşabileceğiniz bir alandır. GitHub, profil README'nizi profil sayfanızın en üstünde gösterir. Daha fazla bilgi için "[Profil README'nizi Yönetme](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)" bölümüne bakın.
 
 ![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: Activity: Your first branch
+### :keyboard: Aktivite: İlk Dalınızı Oluşturma
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+1. Yeni bir tarayıcı sekmesi açın ve yeni oluşturduğunuz depoya gidin. Ardından, bu talimatları bu sekmede okurken ikinci sekmede adımları takip edin.
+2. Deponuzun başlık menüsünde **< > Kod** sekmesine tıklayın.
 
    ![code-tab](/images/code-tab.png)
 
-3. Click on the **main** branch drop-down.
+3. Ana dalın açılır menüsüne tıklayın.
 
    ![main-branch-dropdown](/images/main-branch-dropdown.png)
 
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
+4. Alana, dalınıza `my-first-branch` adını verin. Bu durumda, adın `my-first-branch` olması kurs iş akışını tetiklemek için önemlidir.
+5. Dalınızı oluşturmak için **Dal Oluştur: my-first-branch** düğmesine tıklayın.
 
    ![create-branch-button](/images/create-branch-button.png)
 
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
+   Dal otomatik olarak oluşturduğunuz dala geçecektir. Ana dal açılır çubuğu artık yeni dalınızın adını yansıtacak şekilde güncellenecektir.
 
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+6. Yaklaşık 20 saniye bekleyin ve ardından bu sayfayı yenileyin (talimatları takip ettiğiniz sayfa). [GitHub Actions](https://docs.github.com/en/actions) otomatik olarak bir sonraki adıma geçecektir.
 
 <footer>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/community/discussions/categories/github-education) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Yardıma mı ihtiyacınız var? [Tartışma panomuza katılın](https://github.com/orgs/community/discussions/categories/github-education) &bull; [GitHub Durumunu Kontrol Edin](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Davranış Kuralları](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT Lisansı](https://gh.io/mit)
 
 </footer>
+```
